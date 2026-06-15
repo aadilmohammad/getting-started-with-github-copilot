@@ -74,6 +74,39 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants {
+  margin-top: 12px;
+  padding: 14px 16px;
+  border: 1px solid #e3e8ff;
+  border-radius: 8px;
+  background-color: #f4f6ff;
+}
+
+.participants strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #1a237e;
+  font-size: 0.95rem;
+}
+
+.participants ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.participants li {
+  margin-bottom: 4px;
+  color: #444;
+  font-size: 0.95rem;
+}
+
+.no-participants {
+  margin: 0;
+  color: #6c757d;
+  font-style: italic;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
@@ -106,6 +139,37 @@ button {
 
 button:hover {
   background-color: #3949ab;
+}
+
+.participant-remove {
+  margin-left: 10px;
+  padding: 3px 6px;
+  border: none;
+  background: transparent;
+  color: #bf360c;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.participant-remove:hover {
+  background-color: rgba(191, 54, 12, 0.1);
+}
+
+.participants ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.participants li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
+  color: #444;
+  font-size: 0.95rem;
 }
 
 .message {
